@@ -160,7 +160,7 @@
 \ifOriginalInitials
     \DeclareRobustCommand{\initial}[1]{%
       \StrRight{#1}{1}[\c]%
-      \includegraphics[height=0.75\baselineskip]{\c.png}%
+      \includegraphics[height=0.75\baselineskip]{initials/\c.png}%
     }
     \newcommand{\mylettrine}[3][]{%
       \lettrine[#1, lines=3, lraise=-0.1]{\initial{#2}}{#3}%
